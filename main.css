@@ -112,3 +112,42 @@ button {
     flex-direction: column;
     text-align: left;
 }
+
+.form label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.form input {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 15px;
+    border: none;
+}
+/* не работает  снизу*/
+.form__submit {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+/* не работает сверху */
+
+select {
+    appearance: none;
+}
+
+input {
+    outline: none;
+}
